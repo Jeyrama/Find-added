@@ -22,3 +22,19 @@ function findAdded(st1, st2){
 }
 
 // or
+
+function findAdded(st1, st2){
+  let x = st1.split('').sort((a,b) => a-b);
+  let y = st2.split('').sort((a,b) => a-b);
+  let result = [];
+  let i=0;
+  for (const number of y) {
+  if(number !== x[i] ){
+   result.push(number);
+   }
+   else(
+   i++
+   )
+  }
+  return result.join('')
+}
