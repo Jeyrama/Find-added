@@ -16,3 +16,7 @@ Here are some examples:
 
 
 // Solution
+
+function findAdded(st1, st2){
+  return [...st1].reduce( (s,c) => s.replace(c,''), st2 ).split('').sort().join('')
+}
