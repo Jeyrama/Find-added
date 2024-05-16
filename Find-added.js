@@ -13,3 +13,6 @@ Here are some examples:
   findAdded('678', '876'); // ''
   findAdded('678', '6'); // ''
 */
+
+
+// Solution
